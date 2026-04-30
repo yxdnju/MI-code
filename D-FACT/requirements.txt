@@ -1,0 +1,19 @@
+# 深度学习框架
+torch
+numpy
+
+# 机器学习指标计算
+scikit-learn
+
+# 配置文件解析
+PyYAML
+
+# 张量重排操作
+einops
+
+# 科学计算（用于OpenBMI数据降采样）
+scipy
+
+# 可视化
+matplotlib
+seaborn

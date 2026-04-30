@@ -1,0 +1,35 @@
+# # Python/runtime
+# __pycache__/
+# *.py[cod]
+# .pytest_cache/
+# .mypy_cache/
+# .venv/
+# venv/
+
+# # Local data mount. Keep the folder placeholder only.
+# data/bci_iv_2a_numpy/*
+# !data/bci_iv_2a_numpy/.gitkeep
+# *.mat
+# *.npy
+# *.npz
+
+# # Training outputs and logs.
+# outputs/
+# output/
+# logs/
+# *.log
+# log_result*.txt
+# results.txt
+# sensitivity_summary*.txt
+
+# # Keep curated checkpoints, ignore other model artifacts.
+# *.pth
+# *.pt
+# *.ckpt
+# !checkpoints/best_model3_sensitivity/subject*_model.pth
+
+# # Local IDE/filesystem noise.
+# .idea/
+# .vscode/
+# .DS_Store
+# Thumbs.db

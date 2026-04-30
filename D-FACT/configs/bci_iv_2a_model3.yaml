@@ -1,0 +1,23 @@
+# Model
+network: Model3
+network_args: 
+  n_classes: 4
+  n_channels: 22
+# Data
+data_path: D:/DeepLearning/EEG-TransNet-main/dataset/bci_iv_2a1
+out_folder: output/bci_iv_2a
+
+# Training
+preferred_device: gpu
+nGPU: 0
+random_seed: 42
+decay_factor: 0.95
+batch_size: 128
+
+epochs: 3
+
+lr: 0.001
+
+# Data augmentation
+num_classes: 4
+num_segs: 8

@@ -1,0 +1,15 @@
+batch_size: 128
+data_path: data/bci_iv_2a_numpy
+decay_factor: 0.95
+epochs: 900
+lr: 0.001
+nGPU: 0
+network: Model3_Sensitivity
+network_args:
+  n_channels: 22
+  n_classes: 4
+num_classes: 4
+num_segs: 8
+out_folder: output/bci_iv_2a
+preferred_device: gpu
+random_seed: 42

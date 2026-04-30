@@ -1,0 +1,7 @@
+Experiment: freq_balanced
+Parameters: num_experts=3, freq_split_ratios=(0.33, 0.33)
+==================================================
+Subject | Accuracy | Kappa | F1-Score
+--------------------------------------------------
+Average   | 0.0000 | 0.0000 | 0.0000
+Subject 1 | 0.2535 | 0.0046 | 0.2058
