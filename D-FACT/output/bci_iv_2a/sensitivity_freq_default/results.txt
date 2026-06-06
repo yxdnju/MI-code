@@ -1,0 +1,4 @@
+Experiment: freq_default
+Parameters: num_experts=3, freq_split_ratios=(0.3, 0.3)
+==================================================
+Subject | Accuracy | Kappa | F1-Score

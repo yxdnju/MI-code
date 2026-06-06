@@ -1,0 +1,5 @@
+Epoch [1] | Train Loss: 1.384072  Train Accuracy: 0.279188 | Test Loss: 1.375277 Test Accuracy: 0.284722 Test Kappa: 0.046296  
+Epoch [2] | Train Loss: 1.339950  Train Accuracy: 0.356228 | Test Loss: 1.323792 Test Accuracy: 0.383681 Test Kappa: 0.178241  
+Epoch [3] | Train Loss: 1.270653  Train Accuracy: 0.445095 | Test Loss: 1.224780 Test Accuracy: 0.480903 Test Kappa: 0.307870  
+Epoch [4] | Train Loss: 1.199046  Train Accuracy: 0.491862 | Test Loss: 1.159087 Test Accuracy: 0.529514 Test Kappa: 0.372685  
+Epoch [5] | Train Loss: 1.118587  Train Accuracy: 0.549045 | Test Loss: 1.134144 Test Accuracy: 0.562500 Test Kappa: 0.416667  

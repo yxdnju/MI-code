@@ -1,0 +1,31 @@
+BCI IV-2b Sub04 Model3_Src
+============================================================
+
+Confusion Matrix:
+	Pred:Left Hand	Pred:Right Hand
+True:Left Hand	159	1
+True:Right Hand	3	157
+
+Overall Accuracy: 0.987500  (316/320)
+
+------------------------------------------------------------
+Per-Class Metrics:
+------------------------------------------------------------
+
+  Class: Left Hand
+    TP (True Positive)  = 159
+    TN (True Negative)  = 157
+    FP (False Positive) = 3
+    FN (False Negative) = 1
+    Precision = 0.981481
+    Recall    = 0.993750
+    F1-Score  = 0.987578
+
+  Class: Right Hand
+    TP (True Positive)  = 157
+    TN (True Negative)  = 159
+    FP (False Positive) = 1
+    FN (False Negative) = 3
+    Precision = 0.993671
+    Recall    = 0.981250
+    F1-Score  = 0.987421

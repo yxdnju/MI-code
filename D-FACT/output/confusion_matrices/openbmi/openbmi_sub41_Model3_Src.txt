@@ -1,0 +1,31 @@
+OpenBMI Sub41 Model3_Src
+============================================================
+
+Confusion Matrix:
+	Pred:Left Hand	Pred:Right Hand
+True:Left Hand	34	16
+True:Right Hand	16	34
+
+Overall Accuracy: 0.680000  (68/100)
+
+------------------------------------------------------------
+Per-Class Metrics:
+------------------------------------------------------------
+
+  Class: Left Hand
+    TP (True Positive)  = 34
+    TN (True Negative)  = 34
+    FP (False Positive) = 16
+    FN (False Negative) = 16
+    Precision = 0.680000
+    Recall    = 0.680000
+    F1-Score  = 0.680000
+
+  Class: Right Hand
+    TP (True Positive)  = 34
+    TN (True Negative)  = 34
+    FP (False Positive) = 16
+    FN (False Negative) = 16
+    Precision = 0.680000
+    Recall    = 0.680000
+    F1-Score  = 0.680000

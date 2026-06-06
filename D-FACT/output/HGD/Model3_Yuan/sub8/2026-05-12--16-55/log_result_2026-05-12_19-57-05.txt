@@ -1,0 +1,1 @@
+Epoch [1] | Train Loss: 1.382418  Train Accuracy: 0.280245 | Test Loss: 1.387496 Test Accuracy: 0.250000 Test Kappa: 0.000000  

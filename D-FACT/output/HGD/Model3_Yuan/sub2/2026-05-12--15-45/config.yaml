@@ -1,0 +1,32 @@
+network: Model3_Yunxingxing_HGD
+network_args:
+  n_classes: 4
+  n_channels: 44
+data_path: D:\DeepLearning\EEG-TransNet-main\dataset\hgd
+cache_dir: D:\DeepLearning\model3_exp\dataset\hgd_model3_cache
+out_folder: D:\DeepLearning\model3_exp\output\HGD
+summary_path: D:\DeepLearning\model3_exp\output\HGD\model3_hgd_summary.txt
+subjects: 2-14
+preferred_device: gpu
+nGPU: 0
+random_seed: 42
+batch_size: 250
+epochs: 800
+lr: 0.002
+weight_decay: 0.001
+torch_num_threads: 10
+num_workers: 0
+pin_memory: false
+preprocess:
+  sfreq: 250.0
+  n_samples: 1000
+  low_cut: 0.1
+  high_cut: null
+  standardize: true
+  standardize_factor: 0.001
+  standardize_init_block: 1000
+  standardize_eps: 0.0001
+  remove_artifacts: true
+  artifact_threshold_uv: 800.0
+num_classes: 4
+num_segs: 8

@@ -1,0 +1,11 @@
+preferred_device: gpu
+nGPU: 0
+random_seed: 42
+batch_size: 128
+epochs: 800
+lr: 0.001
+weight_decay: 0.001
+torch_num_threads: 10
+num_classes: 2
+num_segs: 8
+n_channels: 3

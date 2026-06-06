@@ -1,0 +1,4 @@
+Experiment: no_dynamic_conv
+Parameters: num_experts=0, freq_split_ratios=(0.3, 0.3)
+==================================================
+Subject | Accuracy | Kappa | F1-Score

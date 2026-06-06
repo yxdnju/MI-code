@@ -1,0 +1,51 @@
+BCI IV-2a Sub05 Model3_withoutTCN
+============================================================
+
+Confusion Matrix:
+	Pred:Left Hand	Pred:Right Hand	Pred:Feet	Pred:Tongue
+True:Left Hand	46	2	7	17
+True:Right Hand	4	44	17	7
+True:Feet	9	5	50	8
+True:Tongue	11	5	13	43
+
+Overall Accuracy: 0.635417  (183/288)
+
+------------------------------------------------------------
+Per-Class Metrics:
+------------------------------------------------------------
+
+  Class: Left Hand
+    TP (True Positive)  = 46
+    TN (True Negative)  = 192
+    FP (False Positive) = 24
+    FN (False Negative) = 26
+    Precision = 0.657143
+    Recall    = 0.638889
+    F1-Score  = 0.647887
+
+  Class: Right Hand
+    TP (True Positive)  = 44
+    TN (True Negative)  = 204
+    FP (False Positive) = 12
+    FN (False Negative) = 28
+    Precision = 0.785714
+    Recall    = 0.611111
+    F1-Score  = 0.687500
+
+  Class: Feet
+    TP (True Positive)  = 50
+    TN (True Negative)  = 179
+    FP (False Positive) = 37
+    FN (False Negative) = 22
+    Precision = 0.574713
+    Recall    = 0.694444
+    F1-Score  = 0.628931
+
+  Class: Tongue
+    TP (True Positive)  = 43
+    TN (True Negative)  = 184
+    FP (False Positive) = 32
+    FN (False Negative) = 29
+    Precision = 0.573333
+    Recall    = 0.597222
+    F1-Score  = 0.585034

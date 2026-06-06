@@ -1,0 +1,12 @@
+LOSO Experiment Results
+==================================================
+Subject | Accuracy | Kappa | F1-Score
+Test Subject 1 | 0.7448 | 0.6597 | 0.7421
+Test Subject 2 | 0.5417 | 0.3889 | 0.5427
+Test Subject 3 | 0.8681 | 0.8241 | 0.8681
+Test Subject 4 | 0.6163 | 0.4884 | 0.6174
+Test Subject 5 | Accuracy: 0.5347 | Kappa: 0.3796 | F1: 0.5003
+Test Subject 6 | Accuracy: 0.5226 | Kappa: 0.3634 | F1: 0.5082
+Test Subject 7 | Accuracy: 0.7465 | Kappa: 0.6620 | F1: 0.7465
+Test Subject 8 | Accuracy: 0.7882 | Kappa: 0.7176 | F1: 0.7822
+Test Subject 9 | Accuracy: 0.7517 | Kappa: 0.6690 | F1: 0.7515

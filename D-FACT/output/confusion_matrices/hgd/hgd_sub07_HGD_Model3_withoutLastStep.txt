@@ -1,0 +1,51 @@
+HGD Sub07 HGD_Model3_withoutLastStep
+============================================================
+
+Confusion Matrix:
+	Pred:Right Hand	Pred:Left Hand	Pred:Rest	Pred:Feet
+True:Right Hand	39	1	0	0
+True:Left Hand	4	36	0	0
+True:Rest	0	2	38	0
+True:Feet	1	0	2	37
+
+Overall Accuracy: 0.937500  (150/160)
+
+------------------------------------------------------------
+Per-Class Metrics:
+------------------------------------------------------------
+
+  Class: Right Hand
+    TP (True Positive)  = 39
+    TN (True Negative)  = 115
+    FP (False Positive) = 5
+    FN (False Negative) = 1
+    Precision = 0.886364
+    Recall    = 0.975000
+    F1-Score  = 0.928571
+
+  Class: Left Hand
+    TP (True Positive)  = 36
+    TN (True Negative)  = 117
+    FP (False Positive) = 3
+    FN (False Negative) = 4
+    Precision = 0.923077
+    Recall    = 0.900000
+    F1-Score  = 0.911392
+
+  Class: Rest
+    TP (True Positive)  = 38
+    TN (True Negative)  = 118
+    FP (False Positive) = 2
+    FN (False Negative) = 2
+    Precision = 0.950000
+    Recall    = 0.950000
+    F1-Score  = 0.950000
+
+  Class: Feet
+    TP (True Positive)  = 37
+    TN (True Negative)  = 120
+    FP (False Positive) = 0
+    FN (False Negative) = 3
+    Precision = 1.000000
+    Recall    = 0.925000
+    F1-Score  = 0.961039

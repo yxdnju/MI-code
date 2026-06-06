@@ -1,0 +1,6 @@
+Epoch [1] | Train Loss: 1.386928  Train Accuracy: 0.296053 | Test Loss: 1.388689 Test Accuracy: 0.225694 Test Kappa: -0.032407  
+The average accuracy is: 0.225694
+The best accuracy is: 0.225694
+The best epoch is: 1.000000
+The best kappa is: -0.032407
+The best f_score is: 0.146703
